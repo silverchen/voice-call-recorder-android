@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbe4f2"
+    tools:context=".CallReceiverActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/llTopPanel"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="UselessParent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/incoming_call_label"
+                android:textColor="@color/colorFont"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/colorDarkFont"
+                android:textSize="35dp"
+                android:layout_marginTop="10dp"/>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_marginTop="30dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Number of calls:"
+                        android:textColor="@color/colorFont"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/tvCallCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/colorFont"
+                        android:textSize="14dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Last call:"
+                        android:textColor="@color/colorFont"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:id="@+id/tvLastCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/colorFont"
+                        android:textSize="14dp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/llMediaPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvRecordedCalls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:listSelector="#9459b3df"
+                android:layout_marginTop="10dp">
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBottomPanel"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnReject"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/colorRejectCall"
+                android:text="@string/btnReject_button" />
+
+            <Button
+                android:id="@+id/btnAnswer"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="@color/colorAnswerCall"
+                android:text="@string/btnAnswer_button" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
