@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carro CRM App</string>
+
+    <string name="btnAnswer_button">Answer</string>
+    <string name="btnReject_button">Reject</string>
+    <string name="incoming_call_label">Incoming call</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

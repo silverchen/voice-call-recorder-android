@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Users\chenninw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\support-annotations-23.2.1_33cd07d5b2aa4eef3253e5f61287950d8e2ed06f.jar" />
+    </item>
+    <item
+        jar="C:\Users\LENOVO Y500\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\gson-2.6.2_b5af58d4c178c3088464bd92b7891295719bd549.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.2.1_0a291c0e48180b5fe43e1491d19deef91ab07c06.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.novoda\sqlite-provider\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c14a5bac8a01b356b25c14eecbc5ac3c9d61e438">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\com.novoda-sqlite-provider-1.2.0_be45ae10a98d53e60f771c5744dcddcbc985b202.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.2.1_6a88ddc3890787e6178bd83e69c59b6cb671971e.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\net.the4thdimension\audio-wife\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="82c795604dde48bbef2c40af009daf5de890d680">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\net.the4thdimension-audio-wife-1.0.3_b1e1303c683bab2f9621567ca63f0ef52983efc3.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.2.1_dbb146d56eaaff78fb759450463b10de7715118e.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\internal_impl-23.2.1_bd41362a03b611a1ca14cadd921aff7b445bdbe5.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\io.realm\realm-android-library\0.88.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="43ae35fb2ebd6bac5b6fb4d041c94a35a34dbfc0">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\io.realm-realm-android-library-0.88.2_dec768aeb9a8c5dc20d71d1973c6932a9ea7f445.jar" />
+    </item>
+    <item
+        jar="C:\Users\LENOVO Y500\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\0.88.2\62142d422aaf1a4619035612aaa396df63bbf974\realm-annotations-0.88.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="62142d422aaf1a4619035612aaa396df63bbf974">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\realm-annotations-0.88.2_89e978eef96fc656b4268de6f2a40c5079289db5.jar" />
+    </item>
+    <item
+        jar="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="F:\Users\chenninw\AndroidStudioProjects\CarroCRMApp\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.2.1_6eb35f1c41c0d7f08df3db450a0cf85bb94fac12.jar" />
+    </item>
+
+</items>
